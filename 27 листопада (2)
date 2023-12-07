@@ -1,0 +1,31 @@
+//Зміна тексту елементів <p>
+const paragraphs = document.querySelectorAll('p');
+paragraphs.forEach(paragraph => {
+  paragraph.textContent = 'Змінений текст';
+});
+
+//Додавання класу до елементу з ідентифікатором task1
+const taskElement = document.getElementById('task1');
+taskElement.classList.add('highlight');
+
+// Зміна стилів елементів
+const listItems = document.querySelectorAll('li');
+listItems.forEach(item => {
+  item.classList.add('list-item');
+});
+
+const highlightedElements = document.querySelectorAll('.highlight');
+highlightedElements.forEach(element => {
+  element.style.color = 'red';
+});
+
+const listItemsWithClass = document.querySelectorAll('.list-item');
+listItemsWithClass.forEach(item => {
+  item.style.backgroundColor = 'lightgray';
+});
+
+//Зміна тексту останнього елемента <p> у блоку з ідентифікатором task1
+const lastParagraphInTask = taskElement.querySelector('p:last-child');
+if (lastParagraphInTask) {
+  lastParagraphInTask.textContent = 'Новий останній текст';
+}
