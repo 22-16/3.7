@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=l.0">
+<title>jQuery Practice</title>
+<!-- Підключення бібліотеки jQuerу -->
+<script src-"https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<!-- Ваш скрипт jQuеrу -->
+<script src-"script.js"></script>
+</head>
+<body>
+<h1>Практика з jQuery</h1>
+<div id="taskl">
+<р>це абзац 1 </р>
+<р>це абзац 2</p>
+<р>Це абзац з</p>
+</div>
+<div id="task2">
+<ul>
+<lі>Елемент 1</li>
+<lі>Елемент 2</li>
+<lі>Елемент З</li>
+</ul>
+</div>
+</body>
+</html>
